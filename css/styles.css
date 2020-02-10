@@ -1,8 +1,7 @@
-#body-img {
-  opacity: .2;
-  display: block;
-  height: auto;
-  width: auto;
+.body {
+  background-image: url('furniture2.png');
+}
+#video {
 }
 #header {
   position: fixed;
@@ -12,6 +11,20 @@
   height: 10%;
   width: 10%;
 }
-.nav-link {
-  list-style-type: none;
+#company-name {
+  font-family: 'Dancing Script', cursive;
+}
+@media screen and (max-width: 600px) {
+  #header {
+    float: none;
+    width: 100%;
+  }
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#nav-bar {
+
 }
